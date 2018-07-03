@@ -1,7 +1,7 @@
 /* CpuArch.c -- CPU specific code
 2016-02-25: Igor Pavlov : Public domain */
 
-
+#include "Precomp.h"
 
 #include "CpuArch.h"
 
@@ -173,7 +173,7 @@ Bool CPU_Is_InOrder()
   return True;
 }
 
-#if !defined(MY_CPU_AMD64) && defined(_WIN32) && !(WINVER >= _WIN32_WINNT_WIN2K)
+#if !defined(MY_CPU_AMD64) && defined(_WIN32)
 #include <windows.h>
 static Bool CPU_Sys_Is_SSE_Supported()
 {

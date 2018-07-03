@@ -63,6 +63,9 @@
     <ClCompile Include="Ppmd7Dec.c">
       <Filter>7zdec</Filter>
     </ClCompile>
+    <ClCompile Include="Precomp.c">
+      <Filter>7zdec</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\7z.h">
@@ -105,6 +108,9 @@
       <Filter>7zdec\include</Filter>
     </ClInclude>
     <ClInclude Include="include\Ppmd7.h">
+      <Filter>7zdec\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h">
       <Filter>7zdec\include</Filter>
     </ClInclude>
   </ItemGroup>
