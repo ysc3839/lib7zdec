@@ -5,18 +5,38 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib7zdec", "lib7zdec.vcxproj", "{2A2F157E-6313-45F8-A322-6E13D7B4064F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7z", "7z.vcxproj", "{FC22C8FE-244B-4A31-94EE-DE35EFBA4AAE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A2F157E-6313-45F8-A322-6E13D7B4064F} = {2A2F157E-6313-45F8-A322-6E13D7B4064F}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A2F157E-6313-45F8-A322-6E13D7B4064F}.Debug|x64.ActiveCfg = Debug|Win32
 		{2A2F157E-6313-45F8-A322-6E13D7B4064F}.Debug|x86.ActiveCfg = Debug|Win32
 		{2A2F157E-6313-45F8-A322-6E13D7B4064F}.Debug|x86.Build.0 = Debug|Win32
+		{2A2F157E-6313-45F8-A322-6E13D7B4064F}.Release|x64.ActiveCfg = Release|Win32
 		{2A2F157E-6313-45F8-A322-6E13D7B4064F}.Release|x86.ActiveCfg = Release|Win32
 		{2A2F157E-6313-45F8-A322-6E13D7B4064F}.Release|x86.Build.0 = Release|Win32
+		{FC22C8FE-244B-4A31-94EE-DE35EFBA4AAE}.Debug|x64.ActiveCfg = Debug|x64
+		{FC22C8FE-244B-4A31-94EE-DE35EFBA4AAE}.Debug|x64.Build.0 = Debug|x64
+		{FC22C8FE-244B-4A31-94EE-DE35EFBA4AAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC22C8FE-244B-4A31-94EE-DE35EFBA4AAE}.Debug|x86.Build.0 = Debug|Win32
+		{FC22C8FE-244B-4A31-94EE-DE35EFBA4AAE}.Release|x64.ActiveCfg = Release|x64
+		{FC22C8FE-244B-4A31-94EE-DE35EFBA4AAE}.Release|x64.Build.0 = Release|x64
+		{FC22C8FE-244B-4A31-94EE-DE35EFBA4AAE}.Release|x86.ActiveCfg = Release|Win32
+		{FC22C8FE-244B-4A31-94EE-DE35EFBA4AAE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2B22894-31F3-4453-9941-025A1BDED045}
 	EndGlobalSection
 EndGlobal
